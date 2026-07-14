@@ -1,0 +1,26 @@
+frontend-ai-agent/
+├── src/
+│   ├── agents/
+│   │   ├── base.py              # BaseAgent class
+│   │   ├── design.py            # DesignInterpreterAgent
+│   │   ├── component.py         # ComponentBuilderAgent
+│   │   ├── styling.py           # StylingAgent
+│   │   ├── animation.py         # AnimationAgent
+│   │   ├── reviewer.py          # CodeReviewerAgent
+│   │   └── integrator.py        # IntegrationAgent
+│   ├── core/
+│   │   ├── models.py            # Pydantic data models
+│   │   ├── orchestrator.py      # AgentOrchestrator
+│   │   └── prompts.py           # All prompt templates
+│   ├── utils/
+│   │   ├── gemini_client.py     # Gemini wrapper with retries
+│   │   ├── parsers.py           # Parse Figma JSON, screenshots
+│   │   └── validators.py        # Validate agent outputs
+│   └── __init__.py
+├── tests/
+│   ├── test_agents/
+│   └── test_orchestrator.py
+├── examples/
+│   └── sample_design.json       # Test input
+├── requirements.txt
+└── README.md
