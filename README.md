@@ -335,7 +335,7 @@ Our vision is to become the world's smartest AI frontend engineering assistant�
 
 # 👨‍💻 Author
 
-## Emmy Tech Hub
+## Emmy AI
 
 AI Engineer • Python Developer • AI Automation Builder
 
